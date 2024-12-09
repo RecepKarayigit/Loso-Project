@@ -67,7 +67,7 @@ p {
     text-transform: uppercase;
     border-radius: 3px;
     transition: all 1s;
-    -webkit- : all 1s;
+    -webkit-: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
 }
@@ -80,14 +80,13 @@ p {
 .btn-tour,
 .btn-tour:focus,
 .btn-tour:active,
-.btn-tour:visited
-{
-    color:#A9ADB0;
+.btn-tour:visited {
+    color: #A9ADB0;
     margin-left: 20px;
     text-transform: uppercase;
     font-size: 19px;
     font-weight: 500;
-    background:transparent;
+    background: transparent;
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -98,12 +97,114 @@ p {
     color: #fff;
 }
 
-.btn-tour i{
-    font-size:20px;
+.btn-tour i {
+    font-size: 20px;
     padding-left: 5px;
-    color:#129CF3;
+    color: #129CF3;
 }
 
 .header-iphone img {
     width: 100%;
+}
+
+/* About Us Section */
+
+.choose-us-wrapper {
+    padding-top: 50px;
+}
+
+.about-iphone img {
+    margin-top: 8px;
+}
+
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 170px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -80px;
+}
+
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.choose-us-title h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    width: 280px;
+    height: 1px;
+    background-color: #129CF3;
+}
+
+.choose-us-title p {
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+
+
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.choose-us-item div i {
+    font-size: 55px;
+    color: #129CF3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.choose-us-item h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.choose-us-item p {
+    color: #727272;
+    font-size: 15px;
 }
