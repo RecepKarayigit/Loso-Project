@@ -1,132 +1,16 @@
 /*General CSS*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    padding-top: 100px;
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-/* --------------------------------------------------------------------------- */
-/* VVV Unnecessary css formating after migrating the project to boostrap   VVV */
-/* --------------------------------------------------------------------------- */
-
-/*
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h1,
-h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 p {
     font-size: 14px;
-    line-height: 21px;
-    margin-top: 20px;
-}
-
-.main-container{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.single-row{
-    width: 100%;
-}
-
-/*
-
-/* Header */
-/*
-.col-left{
-    width: 63%;
-}
-
-.col-left img{
-    width: 100%;
-    border-radius: 6px;
-}
-
-.col-right{
-    width: 32%;
-}
-
-.col-left, .col-right{
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.btn{
-    padding: 10px 16px;
-    font-size: 18px;
-    line-height: 28px;
-    border-radius: 6px;
-    color:#fff;
-    background-color: #337ab7;
-    text-decoration: none;
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-.clear-fix{
-    clear:both
-}
-
-hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eee;
-}
-*/
-
-/* Feature Section*/
-
-/*
-.col-1,.col-2,.col-3{
-    width: 30%;
-    float: left;
-    padding: auto 15px;
-}
-
-.btn-info {
-    display: inline-block;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-    cursor: pointer;
-    border: 1px solid #cecece;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #333;
-}
-
-.btn-info:hover{
-    color:#333;
-    background-color: #e6e6ee;
-    border-color: #adadad;
-}
-
-.col-footer{
-padding: 30px 0;
-
-} */
-
-/* --------------------------------------------------------------------------- */
-/* ^^^ Unnecessary css formating after migrating the project to boostrap   ^^^ */
-/* --------------------------------------------------------------------------- */
-
-
-/*Footer*/
-#footer-p{
-    padding: 30px 0;
 }
