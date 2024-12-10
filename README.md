@@ -1,5 +1,4 @@
 # Loso-Project
-============
 
 
 This project is a fully responsive website developed using various web technologies and libraries. While following the course "Build Responsive Website Using HTML5, CSS3, JS And Bootstrap" by Irfan Dayan on Udemy, I incorporated custom improvements and enhancements to the original design and functionality.
