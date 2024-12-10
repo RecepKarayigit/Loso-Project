@@ -674,3 +674,20 @@ p {
     font-size: 25px;
     font-weight: 400;
 }
+
+/**Bx-Wrapper/*/
+.bx-wrapper{
+    box-shadow:none;
+    margin-left:130px;
+
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: none;
+    border: 1px solid #129CF3;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active
+{
+    background: #129CF3;
+} 
