@@ -416,3 +416,7 @@ p {
     margin-top: 0px;
     font-weight: 300;
 }
+
+.download-now img{
+    width: 100%;
+}
