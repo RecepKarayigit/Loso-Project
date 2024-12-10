@@ -39,7 +39,7 @@ Ensure the following dependencies are included in the project:
 
 * BxSlider.js
 
-*Animate.css
+* Animate.css
 
 These libraries can be found under src folder of the project.
 
