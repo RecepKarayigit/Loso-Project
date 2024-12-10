@@ -32,6 +32,9 @@
     <!-- Bs Slider -->
     <link rel="stylesheet" type="text/css" href="src/sliders/bxslider/bxslider-4-4.2.17/src/css/jquery.bxslider.css">
     
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="src/css/animate/animate.css.css">
+
     <link rel="stylesheet" type="text/css" href="src/css/style.css">
 
 </head>
@@ -103,11 +106,8 @@
 
                 <div class="header-btns">
                     <!-- Header Buttons -->
-                    <a class="btn btn-download" href="#">Download</a>
-                    <a class="btn btn-tour" href="#">Take A Tour</a>
-
-                    <i class="fa fa-angle-down"></i>
-
+                    <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                    <a class="btn btn-tour wow fadeInRight" href="#">Take A Tour <i class="fa fa-angle-down"></i></a>
                 </div>
 
             </div>
@@ -133,12 +133,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="about-iphone">
+                        <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                             <img src="src/images/about-iphone.png" alt="iphone">
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- Why choose us title -->
                         <div class="choose-us-title">
                             <h2>WHY CHOOSE US?</h2>
@@ -149,7 +149,7 @@
                         <!-- Why choose us description -->
                         <div class="choose-us-description">
                             <!-- choose us item 1  -->
-                            <div class="choose-us-item">
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                 <!-- choose us item icon -->
                                 <div><i class="fa fa-bolt"></i></div>
 
@@ -161,7 +161,7 @@
                             </div>
 
                             <!-- choose us item 2  -->
-                            <div class="choose-us-item">
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                 <!-- choose us item icon -->
                                 <div><i class="fa fa-bullhorn"></i></div>
 
@@ -173,7 +173,7 @@
                             </div>
 
                             <!-- choose us item 3  -->
-                            <div class="choose-us-item">
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                 <!-- choose us item icon -->
                                 <div><i class="fa fa-flag-o"></i></div>
 
@@ -195,7 +195,7 @@
         <div class="testimonial-overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInUp">
                         <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
                             <!-- indicators -->
                             <ol class="carousel-indicators">
@@ -257,7 +257,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <div class="section-title">
+                    <div class="section-title wow fadeIn" data-wow-duration="1s">
                         <h2>Features</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -269,7 +269,7 @@
         <div class="features-inner-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
                         <!-- left feature item 01 -->
                         <div class="left-feature-item">
@@ -311,11 +311,11 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="feature-iphone">
+                        <div class="feature-iphone wow bounceIn">
                             <img src="src/images/iphone-02.png" alt="feature iphone">
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4  wow fadeInRight">
 
                         <!-- right feature item 01 -->
                         <div class="right-feature-item">
@@ -365,7 +365,7 @@
     <!-- Purchase Now -->
     <section class="purchase-now">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInLeftBig" data-wow-duration="1s">
                 <div class="col-md-9">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -379,7 +379,6 @@
     </section>
 
     <!-- Screen Section -->
-
     <section id="Screens" class="screens">
         <div class="container">
             <div class="row">
@@ -391,10 +390,8 @@
                     </div>
                 </div>
             </div>
-
-
                 <div class="row">
-                    <div class="screen-slider">
+                    <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
                     <div class="bxslider col-md-10 col-md-offset-1">
 
                         <div class="item">
@@ -420,10 +417,9 @@
     </section>
 
     <!-- Counter Section -->
-
     <section class="counter">
         <div class="counter-overlay">
-            <div class="container">
+            <div class="container wow bounceInLeft" data-wow-duration="1s">
                 <div class="row text-center">
                     <div class="col-md-3">
                         <div class="counter-item">
@@ -456,7 +452,6 @@
                             <p>Recomended</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -478,7 +473,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
                         <img src="src/images/download-screen.png" alt="download-screen">
                     </div>
                 </div>
@@ -488,7 +483,7 @@
 
     <!-- Available On Section -->
     <section class="available-on">
-        <div class="container">
+        <div class="container wow bounceInRight" data-wow-duration="1s">
             <div class="row">
                 <div class="col-md-6">
                     <div class="available-title">
@@ -540,7 +535,7 @@
 
     <!-- Contact Us Section -->
     <section id="Contact" class="contact-us">
-        <div class="container">
+        <div class="container wow bounceIn">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="section-title">
@@ -552,7 +547,7 @@
             </div>
         </div>
 
-        <div class="contact-us-form">
+        <div class="contact-us-form wow bounceIn">
             <div class="container">
                 <form role="form">
                     <div class="row">
@@ -575,7 +570,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 wow bounceInLeft">
                     <div class="social-icons">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -609,10 +604,14 @@
     <script src="src/js/jquery/jquery-3.7.1/jquery-3.7.1.min.js"></script>
     <script src="src/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="src/sliders/bxslider/bxslider-4-4.2.17/src/js/jquery.bxslider.js"></script>
+    
     <!-- CounterUp JS -->
     <script src="src/counterUp/jquery.waypoints.min.js"></script>
     <script src="src/counterUp/jquery.counterup.min.js"></script>
-    
+
+    <!-- wow.js -->
+     <script src="src/js/wow.js/wow.min.js"></script>
+
     <script src="src/js/custom.js"></script>
 </body>
 
