@@ -377,3 +377,42 @@ p {
     background-color: #1274B1;
     border-color: #316B90;
 }
+
+/* Counter Section */
+.counter {
+    background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counter-overlay {
+    padding: 120px 0px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+}
