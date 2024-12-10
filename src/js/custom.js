@@ -131,3 +131,11 @@ $(document).ready(function(){
     });
 });
 
+
+//CounterUp.js
+$(document).ready(function(){
+    $('.counter-num').counterUp({
+        delay:50,
+        time:2000
+    });
+});
