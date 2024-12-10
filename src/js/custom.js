@@ -139,3 +139,10 @@ $(document).ready(function(){
         time:2000
     });
 });
+
+//Animate.js
+// add animation - initialize Woo.js
+$(document).ready(function() {
+    'use strict';
+    new WOW().init();
+}); 
