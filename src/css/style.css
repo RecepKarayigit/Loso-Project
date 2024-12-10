@@ -118,13 +118,14 @@ p {
 }
 
 .section-title {
+    text-align: center;
     padding-top: 90px;
     padding-bottom: 50px;
 }
 
 .section-title h2 {
     position: relative;
-    text-align: center;
+    display: inline-block;
     color: #333;
     font-size: 30px;
     font-weight: 400;
@@ -135,11 +136,10 @@ p {
     content: "";
     position: absolute;
     bottom: -5px;
-    left: 50%;
-    width: 170px;
+    left: 0;
+    width: 100%;
     height: 1px;
     background-color: #129CF3;
-    margin-left: -80px;
 }
 
 .section-title p {
@@ -417,6 +417,86 @@ p {
     font-weight: 300;
 }
 
-.download-now img{
+/* Donwload Now Section */
+.download-now img {
     width: 100%;
+}
+
+/* Avaliable Now Section */
+.available-on {
+    background-color: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+
+.available-title {
+    padding-top: 75px;
+}
+
+.available-title h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.available-title p {
+    color: #b5b5b5;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0F1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-item:hover {
+    background-color: #121212;
+}
+
+.available-on-item i {
+    color: #129CF3;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-item:hover i {
+    opacity: 0;
+}
+
+.available-on-item:hover div.available-on-inner {
+    opacity: 1;
+}
+
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-inner h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #D7DADB;
+    font-size: 16px;
 }
